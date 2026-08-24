@@ -1,0 +1,11 @@
+TNNLS_Fig_FinalAccuracyDepthBand: Mean final Cora test accuracy of the untreated model across three supplied seeds, with the shaded region showing plus or minus one sample standard deviation (not a confidence interval).
+
+TNNLS_Fig_PeakAllocatedMemory: Peak memory allocated by PyTorch CUDA for each depth-16 condition; identical seed values arise from identical tensor shapes and do not represent total board memory or reserved memory.
+
+TNNLS_Fig_RecordedRunElapsed: Recorded end-to-end elapsed time for each depth-16 run and seed, covering training, validation, test evaluation, and the final diagnostic rather than isolated epoch wall-clock time.
+
+TNNLS_Fig3_Pipeline: The proposed workflow converts fixed layerwise diagnostics into repair masks and evaluates them against matched falsification controls before any effectiveness claim is admitted.
+
+TNNLS_Fig4_Depth16DiagnosticTrajectories: Recorded depth-16 layer trajectories from the real RTX A6000 manifest; lines are seed means and shaded bands are sample standard deviations (n = 3), with no smoothing or interpolation, and the dotted line in panel (c) marks epsilon = 0.5.
+
+TNNLS_Fig5_A6000ExecutionProfile: Recorded depth-16 PyTorch peak allocated CUDA memory and whole-run elapsed time from the same three RTX A6000 seeds; elapsed time is neither per-epoch time nor synchronized throughput.

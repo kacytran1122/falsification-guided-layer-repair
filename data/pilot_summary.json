@@ -1,0 +1,54 @@
+{
+  "environment": {
+    "created_utc": "2026-08-24T03:47:49Z",
+    "cuda_runtime": "12.4",
+    "device": "cuda:0",
+    "driver": "595.84",
+    "gpu": "NVIDIA RTX A6000",
+    "hostname": "lambdavector2",
+    "memory_mib": 49140,
+    "python": "3.12.3",
+    "torch": "2.6.0+cu124"
+  },
+  "grouped_results": {
+    "depth16_mismatched": [
+      0.5663333535194397,
+      0.06074814086131749
+    ],
+    "depth16_plain": [
+      0.255333349108696,
+      0.07245918995466259
+    ],
+    "depth16_targeted": [
+      0.5913333694140116,
+      0.05953428256904294
+    ],
+    "depth16_uniform": [
+      0.5886666973431905,
+      0.059180530754102185
+    ],
+    "depth16_wrong_location": [
+      0.6373333732287089,
+      0.05801149149213119
+    ],
+    "depth2_plain": [
+      0.6660000284512838,
+      0.00793724185796158
+    ],
+    "depth32_plain": [
+      0.30533333619435626,
+      0.021962090082817652
+    ],
+    "depth4_plain": [
+      0.4413333535194397,
+      0.12503332882651236
+    ],
+    "depth8_plain": [
+      0.20866667727629343,
+      0.02550163341570271
+    ]
+  },
+  "harness_sha256": "502c2790435998012a6d824c4123873e85bdf23f64f40918d2a015b8f2d51a17",
+  "manifest_sha256": "edc663e03a4ef0f877e1ce64d16915be4b7bd57ab86df96a7427e08031589d35",
+  "status": "real-data pilot; not submission evidence"
+}
